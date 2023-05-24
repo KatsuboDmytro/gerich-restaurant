@@ -1,8 +1,8 @@
 import React from 'react';
-import images from '../../constants/images';
-import { navbarLinks } from '../../constants/data'
+import {data, images} from '../../constants';
 import { Burger } from './Burger'
 import './Navbar.css';
+
 
 const Navbar = () => {
 
@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         {
-          navbarLinks.map((item, index) => (
+          data.navbarLinks.map((item, index) => (
             <li className="p__opensans" key={index}><a href={`#${item.title.toLowerCase()}`}>{item.title}</a></li>
           ))
         }

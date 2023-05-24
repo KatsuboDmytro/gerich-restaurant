@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gerich-restaurant/static/css/main.abd64e84.css",
+    "main.js": "/gerich-restaurant/static/js/main.54277093.js",
+    "index.html": "/gerich-restaurant/index.html",
+    "main.abd64e84.css.map": "/gerich-restaurant/static/css/main.abd64e84.css.map",
+    "main.54277093.js.map": "/gerich-restaurant/static/js/main.54277093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.54277093.js"
+  ]
+}
